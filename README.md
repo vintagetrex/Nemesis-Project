@@ -20,6 +20,8 @@ Proof of storage network stores each encrypted submission
 Server stores topic and key of each submission (retrieves from storage network and decrypts for end user)
 
   Sub Projects
+  
+  
     * IP masking for users (both viewers and submitters of content)
       - needs to have enough speed to stream movies real time
       - needs to provide enough anonymity to protect sources of information
