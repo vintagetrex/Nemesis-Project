@@ -34,7 +34,7 @@ Server stores topic and key of each submission (retrieves from storage network a
     
     * Advertising bid system
       - length of advertising slots: starts at 24 hours and decreases to 2 hours over time
-      - two advertising slots on web page: home page, and with submission specific
+      - two advertising slots on web page: on home page, and with specific content
         - home page advertising paid in type A stock
         - submission specific advertising paid in type B stock of submission specific currency
       - submit advertisements as a claim
