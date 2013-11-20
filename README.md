@@ -55,3 +55,8 @@ Server stores topic and key of each submission (retrieves from storage network a
     * search function
       - search on unencrypted topics of submissions
       - allow user control to filter results by: categories and strength of storage network
+
+
+    * format for submissions
+      - topic (remains unencrpted in server)
+      - file of certain length
