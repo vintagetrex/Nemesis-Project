@@ -37,6 +37,8 @@ Server stores topic and key of each submission (retrieves from storage network a
       - two advertising slots on web page: home page, and with submission specific
         - home page advertising paid in type A stock
         - submission specific advertising paid in type B stock of submission specific currency
+      - submit advertisements as a claim
+      - tally bids for a given time slot, highest bid wins
     
     * question system for categorizing submissions
       - MP3+
@@ -44,8 +46,6 @@ Server stores topic and key of each submission (retrieves from storage network a
         - music videos
         - movies
         - porn
-          - of age
-          - under age
       - hardware
       - software
       - text
