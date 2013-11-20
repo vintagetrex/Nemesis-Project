@@ -13,8 +13,8 @@ Type A maximum shares outstanding: 100,000
 
 Type B maximum shares outstanding: 100
 
-    Type B shares availabe through proof of storage mining: 50
-    Type B shares availabe through data submission: 50
+    Type B shares availabe through proof of storage mining (regulated by equation/algorithm): 50
+    Type B shares availabe through data submission (become available at same rate as mined coins): 50
     
 Proof of storage network stores each encrypted submission
 Server stores topic and key of each submission (retrieves from storage network and decrypts for end user)
