@@ -42,6 +42,7 @@ Server stores topic and key of each submission (retrieves from storage network a
       - submit advertisements as a claim
       - tally bids for a given time slot, highest bid wins
       - advertisements will likely be broadcast embedded in the files being stored by the proof of storage scheme
+      - length of advertising rights correlates with projected length of time to find a new block for proof of storage
     
     * question system for categorizing submissions
       - MP3+
