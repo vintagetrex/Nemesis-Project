@@ -41,6 +41,7 @@ Server stores topic and key of each submission (retrieves from storage network a
         - submission specific advertising paid in type B stock of submission specific currency
       - submit advertisements as a claim
       - tally bids for a given time slot, highest bid wins
+      - advertisements will likely be broadcast embedded in the files being stored by the proof of storage scheme
     
     * question system for categorizing submissions
       - MP3+
