@@ -63,7 +63,7 @@ Server stores topic and key of each submission (retrieves from storage network a
 
 
     * format for submissions
-      - topic (remains unencrpted in server)
+      - topic (remains unencrypted in server)
       - file of certain length
 
 
