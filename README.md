@@ -65,3 +65,11 @@ Server stores topic and key of each submission (retrieves from storage network a
     * format for submissions
       - topic (remains unencrpted in server)
       - file of certain length
+
+
+    * thoughts on a 2D array, "timeline of claims/submissions" and corresponding advertisements
+      - the first row is an array of data submissions with x1y1 submitted before x2y1 submitted before x3y1
+      - columns y2 through yn are advertisements submitted for the claims
+      - advertisements are oredered with row y2 containing the advertisement with the highest bid and being stored with
+        a data submission
+        
