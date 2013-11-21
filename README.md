@@ -49,7 +49,6 @@ Server stores topic and key of each submission (retrieves from storage network a
         - music
         - music videos
         - movies
-        - porn
       - hardware
       - software
       - text
