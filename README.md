@@ -56,7 +56,9 @@ Server stores topic and key of each submission (retrieves from storage network a
       - leaked confidential
       
     * search function
-      - search on unencrypted topics of submissions
+      - search on unencrypted topics of submissions or topic encrypted using property preserving encryption: 
+        http://outsourcedbits.org/2013/10/06/how-to-search-on-encrypted-data-part-1/
+        (how to search on encrypted data)
       - allow user control to filter results by: categories and strength of storage network
 
 
