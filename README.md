@@ -73,3 +73,4 @@ Server stores topic and key of each submission (retrieves from storage network a
       - advertisements are oredered with row y2 containing the advertisement with the highest bid and being stored with
         a data submission
         
+    * maybe we should use proof of retrievability rather than proof of storage
