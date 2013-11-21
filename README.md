@@ -11,7 +11,7 @@ http://github.com/namecoin/namecoin
 
 Type A maximum shares outstanding: 100,000
 
-Type B maximum shares outstanding: 100
+Type B maximum shares outstanding per submission: 100
 
     Type B shares availabe through proof of storage mining (regulated by equation/algorithm): 50
     Type B shares availabe through data submission (become available at same rate as mined coins): 50
