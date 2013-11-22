@@ -9,6 +9,9 @@ http://github.com/bitcoin/bitcoin
 Namecoin source code:
 http://github.com/namecoin/namecoin
 
+Anoncoin source code:
+https://github.com/Anoncoin/anoncoin
+
 Type A maximum shares outstanding: 100,000
 
 Type B maximum shares outstanding: 100
