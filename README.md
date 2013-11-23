@@ -75,5 +75,6 @@ Server stores topic and key of each submission (retrieves from storage network a
       - columns y2 through yn are advertisements submitted for the claims
       - advertisements are oredered with row y2 containing the advertisement with the highest bid and being stored with
         a data submission
+      - new blocks from proof of work add storage slots to the array
         
 
