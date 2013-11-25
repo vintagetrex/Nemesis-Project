@@ -76,5 +76,6 @@ Server stores topic and key of each submission (retrieves from storage network a
       - advertisements are oredered with row y2 containing the advertisement with the highest bid and being stored with
         a data submission
       - new blocks from proof of work add storage slots to the array
+      - prevent buffer flow by adding elements to the array (or creating a new array) each time a new block is found for proof of work
         
 
