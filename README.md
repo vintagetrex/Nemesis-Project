@@ -82,10 +82,12 @@ Shares availability
 
     * thoughts on a 2D array, "timeline of claims/submissions" and corresponding advertisements
       - the first row is an array of data submissions with x1y1 submitted before x2y1 submitted before x3y1
-      - columns y2 through yn are advertisements submitted for the claims
-      - advertisements are oredered with row y2 containing the advertisement with the highest bid and being stored with
+      - row y2 is random bit padding
+      - row y3 through yn are advertisements submitted for the claims
+      - advertisements are ordered with row y2 containing the advertisement with the highest bid and being stored with
         a data submission
       - new blocks from proof of work add storage slots to the array
-      - prevent buffer flow by adding elements to the array (or creating a new array) each time a new block is found for proof of work
+      - prevent buffer overflow by adding elements to the array (or creating a new array) each time a new block is found for     proof of work
+      - 
         
 
