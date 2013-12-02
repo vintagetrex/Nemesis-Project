@@ -22,6 +22,16 @@ Type B maximum shares outstanding: 100
 Proof of storage network stores each encrypted submission
 Server stores topic and key of each submission (retrieves from storage network and decrypts for end user)
 
+Shares availability
+
+    Mining retarget time: X
+    Max shares available via mining: 50
+    Max shares available for submitting content: 50
+    Shares become available when blocks are found for storing information
+    approximate the curve: y = ?
+    
+    
+  
   Sub Projects
   
   
