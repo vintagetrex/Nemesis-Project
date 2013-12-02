@@ -40,9 +40,8 @@ Wallets to make advertising payments to
       - needs to have enough speed to stream movies real time
       - needs to provide enough anonymity to protect sources of information
     
-    * Encryption protocol for encrypting submitted information
-      - use public key so key length that has to be stored on server is shorter than information
-      - 
+    * Encryption protocol for encrypting submitted information for each block
+      - use public key so key length that has to be stored can be shorter than information
       
       
     **websites for viewing information** (this will be done by a third party)
@@ -50,13 +49,13 @@ Wallets to make advertising payments to
       - protocol for retrieving and streaming information
     
     * Advertising bid system // make advertising bids to designated wallets
-      - length of advertising slots: starts at 24 hours and decreases to 2 hours over time
+      - the bid transaction
+      - length of advertising slots: stays at one block
       - two advertising slots on web page: on home page, and with specific content
         - home page advertising paid in type A stock
         - submission specific advertising paid in type B stock of submission specific currency
-      - submit advertisements as a claim
-      - tally bids for a given time slot, highest bid wins
-      - advertisements will likely be broadcast embedded in the files being stored by the proof of storage scheme
+      - submit advertisements as a claim/submission and make a bid to the bid receiving wallet
+      - tally bids for a new block, highest bid wins
       - length of advertising rights correlates with projected length of time to find a new block for proof of storage
     
     **question system for categorizing submissions** (done by a third party website)
@@ -78,18 +77,14 @@ Wallets to make advertising payments to
 
 
     * format for submissions
-      - topic (remains unencrypted in server)
-      - file of certain length
+      - topic (encrypted with PPE or left unencrypted)
+      - file of certain length to be encrypted
 
 
-    * thoughts on a 2D array, "timeline of claims/submissions" and corresponding advertisements
+    * 2D array: "timeline of claims submissions" and corresponding advertisements
       - the first row is an array of data submissions with x1y1 submitted before x2y1 submitted before x3y1
-      - row y2 is random bit padding
+      - row y2 could be random bit padding
       - row y3 through yn are advertisements submitted for the claims
-      - advertisements are ordered with row y2 containing the advertisement with the highest bid and being stored with
-        a data submission
+      - advertisements are ordered with row y3 containing the claim submission number of the advertisement with the               highest bid and being stored with a data submission
       - new blocks from proof of work add storage slots to the array
-      - prevent buffer overflow by adding elements to the array (or creating a new array) each time a new block is found for     proof of work
-      - 
-        
-
+      - prevent buffer overflow by adding elements to the array (or creating a new array) each time a new block is found          for proof of work
