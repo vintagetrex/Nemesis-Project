@@ -28,8 +28,13 @@ Shares availability
     Max shares available via mining: 50
     Max shares available for submitting content: 50
     Shares become available when blocks are found for storing information
-    Share availabiltiy approximates the curve: curve with y asymptote approaching 50 
-    
+    for (t >= 0) {
+        
+        Type A shares outstanding approximates the curve: [100000 - e^(-b2*t1)] //where t1 is the time of the timeline of                                                                                 //claims
+        Type B shares outstanding approximates the curve: [100 - e^(-b1*t2)] // where t2 is the time since content                                                                                     //submission
+        }
+        
+        
 Wallets to make advertising payments to
 
   
