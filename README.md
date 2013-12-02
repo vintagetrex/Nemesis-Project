@@ -79,6 +79,8 @@ Wallets to make advertising payments to
     * format for submissions
       - topic (encrypted with PPE or left unencrypted)
       - file of certain length to be encrypted
+  
+    * PPE encryption protocol for encrypting topics of submited claims
 
 
     * 2D array: "timeline of claims submissions" and corresponding advertisements
