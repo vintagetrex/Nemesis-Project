@@ -28,9 +28,10 @@ Shares availability
     Max shares available via mining: 50
     Max shares available for submitting content: 50
     Shares become available when blocks are found for storing information
-    approximate the curve: y = ?
+    Share availabiltiy approximates the curve: y = ?
     
-    
+Wallets to make advertising payments to
+
   
   Sub Projects
   
@@ -43,11 +44,12 @@ Shares availability
       - use public key so key length that has to be stored on server is shorter than information
       - 
       
-    * Deepweb site for viewing information
+      
+    **websites for viewing information** (this will be done by a third party)
       - user interface
       - protocol for retrieving and streaming information
     
-    * Advertising bid system
+    * Advertising bid system // make advertising bids to designated wallets
       - length of advertising slots: starts at 24 hours and decreases to 2 hours over time
       - two advertising slots on web page: on home page, and with specific content
         - home page advertising paid in type A stock
@@ -57,7 +59,7 @@ Shares availability
       - advertisements will likely be broadcast embedded in the files being stored by the proof of storage scheme
       - length of advertising rights correlates with projected length of time to find a new block for proof of storage
     
-    * question system for categorizing submissions
+    **question system for categorizing submissions** (done by a third party website)
       - MP3+
         - music
         - music videos
@@ -68,7 +70,7 @@ Shares availability
       - images
       - leaked confidential
       
-    * search function
+    **search function** (performed by website)
       - search on unencrypted topics of submissions or topic encrypted using property preserving encryption: 
         http://outsourcedbits.org/2013/10/06/how-to-search-on-encrypted-data-part-1/
         (how to search on encrypted data)
