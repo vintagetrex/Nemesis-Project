@@ -28,7 +28,7 @@ Shares availability
     Max shares available via mining: 50
     Max shares available for submitting content: 50
     Shares become available when blocks are found for storing information
-    Share availabiltiy approximates the curve: y = ?
+    Share availabiltiy approximates the curve: curve with y asymptote approaching 50 
     
 Wallets to make advertising payments to
 
