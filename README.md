@@ -30,8 +30,8 @@ Shares availability
     Shares become available when blocks are found for storing information
     for (t >= 0) {
         
-        Type A shares outstanding approximates the curve: [100000 - e^(-b2*t1)] //where t1 is the time of the timeline of                                                                                 //claims
-        Type B shares outstanding approximates the curve: [100 - e^(-b1*t2)] // where t2 is the time since content                                                                                     //submission
+        Type A shares outstanding approximates the curve: [100000 - 100000e^(-b2*t1)] //where t1 is the time of the timeline of                                                                                 //claims
+        Type B shares outstanding approximates the curve: [100 - 100e^(-b1*t2)] // where t2 is the time since content                                                                                     //submission
         }
         
         
@@ -40,6 +40,12 @@ Wallets to make advertising payments to
   
   Sub Projects
   
+  
+    * Proof of Work single computational mining network
+      - perform the function of finding blocks and storing sections of the storage array with the same function
+      - rather than 2 mining networks have a single network based on producing a random string that satisfies the checksum
+        of the hashed network status (balance of payments), encrypted claim with key, and padding
+      - combined network of proof of storage and proof of work
   
     * IP masking for users (both viewers and submitters of content)
       - needs to have enough speed to stream movies real time
